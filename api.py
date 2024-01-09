@@ -2,7 +2,6 @@ import httpx
 import os
 import base64
 import json
-import asyncio
 
 USER = os.environ.get('GITHUB_USER')
 TOKEN = os.environ.get('GITHUB_TOKEN')
